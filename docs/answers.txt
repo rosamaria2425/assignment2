@@ -1,3 +1,6 @@
+Date completed Git lab tutorials: March 4, 2026
+Date GitHub account created: ~Feb 7, 2026
+
 1. [master a5d150f] Add name and FSUID to README
  1 file changed, 2 insertions(+)
 
@@ -14,7 +17,7 @@ To https://github.com/rosamaria2425/assignment2.git
    f4975e5..a5d150f  master -> master
 
 2. git rev-list --count HEAD
-8
+ans: 8
 
 3. git log -1 -- README.md
 commit a5d150f7ac58bc392faee4b0e88e2612f24de488
@@ -84,3 +87,7 @@ Polymorphism means a method can behave differently depending on the object that 
 
 Encapsulation:
 Encapsulation means keeping data inside a class private and accessing it through public methods.
+
+9. The main difference between the ‘Dictator and Lieutenants’ workflow and the ‘Integration manager’ workflow is related to code change integration. In ‘Dictator and Lieutenants,’ the project lead is considered the dictator who decides what is the final code. The lieutenants are responsible for handling other developers' contributions before passing them on to the dictator. In ‘Integration manager,’ developers fork the code and send pull requests to the integration manager.
+
+10. The team of 100 developers will benefit from the “Dictator and Lieutenants” workflow because it will help them organize their contributions through different people instead of everyone directly contributing to one repository. The lieutenants will review and oversee changes from different teams of developers before they are submitted to the main project leader. This will reduce confusion and conflicts, and keep everything organized compared to a centralized approach.
