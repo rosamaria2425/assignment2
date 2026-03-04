@@ -1,0 +1,86 @@
+1. [master a5d150f] Add name and FSUID to README
+ 1 file changed, 2 insertions(+)
+
+PS C:\Users\umuko\assignment2> git push
+info: Please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 316 bytes | 79.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/rosamaria2425/assignment2.git
+   f4975e5..a5d150f  master -> master
+
+2. git rev-list --count HEAD
+8
+
+3. git log -1 -- README.md
+commit a5d150f7ac58bc392faee4b0e88e2612f24de488
+Author: rosamaria2425 <rosebudart15@gmail.com>
+Date:   Wed Mar 4 11:01:53 2026 -0500
+
+    Add name and FSUID to README
+PS C:\Users\umuko\assignment2> git log -- Vehicle.h
+commit 03106e92a1e36708334c69dd071088c6d0937b1d
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Wed Sep 11 16:58:59 2019 -0400
+
+    -> Declared the trivial destructors for all classes
+    -> Fully formatted toString methods for all classes
+    -> Added test cases in the main method for testing the implementations
+    -> Added validation on value for engine sizes in the  Car class
+
+commit f9cd890b3f89fbe5920a1fdf7da34ee915ba27b9
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Thu Sep 5 18:42:39 2019 -0400
+
+    -> Partial implementation of PoweredVehicle and Car
+    -> Definition of virtual functions
+
+commit f9c24b027e6275ff6a1911241014c44971b4e8d0
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Thu Sep 5 18:04:36 2019 -0400
+
+    Refactored Vehicle class to separate definition and declarations
+    Added mileageEstimate abstract method to Vehicle
+    Implemented the Bicycle class
+
+commit 4f6c88c953f4601929df7980a19dcdaee4f13854
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Thu Sep 5 14:59:19 2019 -0400
+
+    Base Vehicle class created
+PS C:\Users\umuko\assignment2> git log --grep="file"
+commit f4975e5d56ff331762b318bfd12c5236e0299f25
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Wed Sep 25 18:33:08 2019 -0400
+
+    -> Adding an empty README.md file
+PS C:\Users\umuko\assignment2> notepad docs\answers.txt
+PS C:\Users\umuko\assignment2> git rev-list --count HEAD
+8
+PS C:\Users\umuko\assignment2> git log -1 -- README.md
+commit a5d150f7ac58bc392faee4b0e88e2612f24de488
+Author: rosamaria2425 <rosebudart15@gmail.com>
+Date:   Wed Mar 4 11:01:53 2026 -0500
+
+    Add name and FSUID to README
+
+4. Branches allow developers to work on new features without affecting the main version of the project. They also allow multiple developers to work on different tasks at the same time.
+
+5. git status shows the current state of the working directory, including modified, staged, or untracked files. git log shows the history of commits in the repository.
+
+6. git log -- Vehicle.h
+
+7. git log --grep="file"
+
+8. Inheritance:
+Inheritance allows a class to inherit properties and methods from another class so code can be reused.
+
+Polymorphism:
+Polymorphism means a method can behave differently depending on the object that is calling it.
+
+Encapsulation:
+Encapsulation means keeping data inside a class private and accessing it through public methods.
